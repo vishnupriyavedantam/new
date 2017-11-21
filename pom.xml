@@ -23,7 +23,7 @@
 		<version>2.5.6</version>
 	</dependency>
 
- <plugins>
+ 
    <plugin>  
      <groupId>org.apache.tomcat.maven</groupId>  
  	<artifactId>tomcat7-maven-plugin</artifactId>  
@@ -36,8 +36,8 @@
 	           <password>admin</password>
 		 </servers>
  	    </configuration>   
-     </plugin>
-   </plugins>
+    </plugin>
+   
 
     
  </dependencies>
