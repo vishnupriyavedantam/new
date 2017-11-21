@@ -30,7 +30,7 @@
 
   <plugin>
 
-    <groupId>org.codehaus.mojo</groupId>
+    <groupId>org.apache.tomcat.maven</groupId>
 
     <artifactId<tomcat-maven-plugin</artifactId>
 
@@ -38,9 +38,9 @@
 
         <server>TomcatServer</server>
 
-        <url>http:/yourserver:8082/manager</url>
+        <url>http://localhost:8082/manager</url>
 
-        <path>/path/to/context</path>
+        
 
       </configuration>
 
