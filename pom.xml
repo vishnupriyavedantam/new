@@ -29,15 +29,7 @@
 
     
  </dependencies>
-	<plugins>
-	<plugin>
-    <groupId>org.apache.tomcat.maven</groupId>
-    <artifactId>tomcat-maven-plugin</artifactId>
-   
-    <configuration>
-        <url>http://localhost:8082/manager/text</url>
-        <server>TomcatServer</server>
-	    <path>/vishnu</path>
+	
        
     </configuration>
 </plugin>
